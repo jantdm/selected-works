@@ -1,0 +1,204 @@
+/*   RESET   */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video 
+{margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;} body {line-height:1;} article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block;} nav ul, nav ol {list-style:none;} blockquote, q {quotes:none;} blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;} a {margin:0; padding:0; vertical-align:baseline; background:transparent;} ins {background-color:#ff9; color:#000; text-decoration:none;} mark {background-color:#ff9; color:#000; font-style:italic; font-weight:bold;} del {text-decoration: line-through;} abbr[title], dfn[title] {border-bottom:1px dotted; cursor:help;} table {border-collapse:collapse; border-spacing:0;} hr {display:block; height:1px; border:0; margin:1em 0; padding:0;} input, select {vertical-align:middle;}
+
+
+/*   MAIN STYLES   */
+
+.noteweb {
+	display: none;
+}
+
+.noteprint {
+	display: block;
+	line-height: 30px; 
+	font-weight: 400; 
+	background: #DDD; 
+	margin: 30px 0;
+	padding: 2px 2px 2px 10px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	text-align: center;
+}
+
+.note {
+	display: block;
+	line-height: 30px; 
+	font-weight: 400; 
+	background: #DDD; 
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 2px 2px 2px 10px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	text-align: center;
+}
+
+html 
+{
+	background: #FFFFFF; 
+	color: #333; 
+	font-family: Verdana, sans-serif; 
+	height: 100%;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+a
+{
+	color: #555555;
+}
+
+.img_flag
+{
+	float:left;
+	visibility: hidden;
+}
+
+.img_flag img
+{
+	padding-right: 10px;
+	padding-top: 2px;
+	cursor:pointer;
+}
+
+body {height: 100%; margin: 0 auto; max-width: 720px; padding: 0px 10px;}
+
+a, #skills dl dd {-webkit-transition: all 0.15s ; -moz-transition: all 0.15s ; -ms-transition: all 0.15s ; -o-transition: all 0.15s ; transition: all 0.15s ;}
+
+.drkgrey {color: #737373;}
+.bold {font-weight: bold;}
+.right {float:right; clear:both;}
+.center {text-align: center;}
+
+/*   HEADER   */
+.fn {font-family: Verdana, sans-serif; font-weight: 400; padding: 5px 0 5px 10px; text-align: right; color: #333;}
+.role {background: #568E43; color: #FCFCFC; font-family: Verdana, sans-serif; font-size: 15px; font-weight: normal; margin: 4px 0 13px; padding: 5px 5px 5px 10px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15); text-align: right;}
+.contact {list-style: none; text-align: center;}
+.contact li {padding: 2px 0;}
+.contact li:last-child {border: none}
+.contact a {color: #555;}
+.contact a:hover {background-color: #eee; text-decoration: none}
+.contact img {width:15px; height: 13px; vertical-align: top;}
+
+
+/*   CONTENT   */
+section {margin: 30px 0; overflow: hidden; }
+section h1 
+{
+	border-left: 2px solid #568E43; 
+	margin-bottom: 10px; 
+	padding-left: 3px; 
+	text-transform: uppercase;
+	font-family: Verdana, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+section p {padding: 0 20px 5px; text-align: justify;}
+
+#profile {width: 100%; height: 333px; background:url(img/profile.jpg);}
+#profile img { width: 100%; height: 100%; }
+
+#skills table td{width: 160px; text-align: center; 	line-height: 16px; vertical-align: top; padding: 10px 5px;}
+
+#skills div 
+{
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0px 5px 10px 5px; 
+	padding: 4px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  
+	box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35); 
+	cursor: default;
+	color: #FFFFFF;
+}
+
+.texp div {background: #568E43;}
+.tsubst div {background: #669933;}
+.tsome div {background: #A3D175;}
+
+.time {
+float: right;
+clear: both;
+width: 170px;
+text-align: right;
+	background: #CCC; padding: 10px 10px 12px 10px; -webkit-border-radius: 0 5px 0 0; border-radius: 0 5px 0 0;
+}
+
+article .start, #experience article .end {color: #555; font-family: Verdana, sans-serif; font-size: 12px;}
+article .start { margin-top: 10px;}
+
+article .more {
+	float: right; 
+	padding: 7px 7px 7px 14px; 
+	text-decoration: underline; 
+	cursor:pointer; 
+	font-size: 10px; 
+	color: #777;
+}
+
+.pack { 
+	margin-bottom: 15px;
+	background: #F7F7F7; padding: 10px 2px 15px 10px; -webkit-border-radius: 0 0 5px 5px; border-radius: 0 0 5px 5px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+article {margin: 15px 0 37px 0; position: relative;}
+article:last-child {margin-bottom: 0}
+
+article h1 {
+	font-family: Verdana, sans-serif; 
+	border: none; 
+	font-style: none; 
+	line-height: 30px; 
+	font-weight: 400; 
+	padding: 0; 
+	text-transform: none;
+	margin-bottom: 0;
+	background: #DDD; padding: 2px 2px 2px 10px; -webkit-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0;
+}
+article h1 a {color: #555; text-decoration: none}
+article h1 a:hover {background-color: #333; color: #eee} 
+article h1 span {color: #777; font-weight: normal;}
+
+article h2 {
+	color: #555;
+    font-family: Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+    line-height: 30px;
+	background: #EEE; padding: 2px 2px 2px 10px;
+}
+
+article p {line-height: 22px; padding-left: 0; max-width: 700px;}
+
+article ul { line-height: 20px; margin: 0 35px 5px; padding-left: 0; max-width: 600px;}
+
+.reflink {background: url('img/xing.png') no-repeat left top; padding-left: 17px;}
+
+#hobbies p {padding: 0 20px 5px;}
+#hobbies h2 {background: #ccc; display: inline; font-weight: normal; padding: 3px;}
+
+#hobbies span {font-weight:bold;}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:768px) {
+  .contact li {}
+}
+
+@media screen and (max-width:680px) {
+  #skills dl dt {display: block; float: none; margin: 0; text-align: left;}
+}
+
+@media screen and (max-width:500px) {
+  .contact li {border-right: medium none; display: block; float: none; overflow: hidden; padding: 6px 10px; text-align: left; width: auto;}
+}
+
+@media screen and (max-width:480px) {
+  #experience article {margin: 40px 0 37px;}
+  #experience article .start, #experience article .end {left: 0; top: -25px; border: none; border-right: 1px dashed #ddd;}
+  #experience article .end {left: 61px; top: -25px; border: none}
+}
